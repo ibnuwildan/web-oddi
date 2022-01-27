@@ -11,7 +11,7 @@ class About extends Component {
           <img src={require("../img/about/about7.JPG")} alt="about" style={{ maxWidth: "50%" }} />
           {/* </div> */}
           <div class="p-5 w-50 bd-highlight" style={{ fontSize: "20px" }}>
-            <h1>ODDI</h1>
+            <h1>ODDIIIIIIIIII</h1>
             berdiri pada September tahun 2018. Berawal dari 4 orang. Kini, Oddi semakin percaya diri untuk terus bekembangdan menjadi salah satu brand yang dapat memberi alasan pada konsumen "kenapa kalian harus memilih custom clothing".
             Kami tumbuh bersama, berusaha fokus pada satu titik,yaitu membawa oddi menjadi perusahaan teknologi yang berkomoditas di bidang pakaian. Bagi kami, kerja keras yang di lakukan semata-mata kami apresiasikan untuk konsumen.
           </div>
