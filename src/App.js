@@ -7,7 +7,7 @@ import About from './page/about';
 import Contact from './page/contact';
 import Footer from './component/footer';
 import Navbar from './component/navbar';
-import Gallery from './component/gallery';
+import Album from './page/album';
 import Detail from './page/detailpage';
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
         <Route path='/detail' component={Detail}></Route>
         <Route path='/about' component={About}></Route>
         <Route path='/contact' component={Contact}></Route>
-        {/* <Route path='/gallery' component={Gallery}></Route> */}
+        <Route path='/album' component={Album}></Route>
         <Footer></Footer>
       </div>
     )

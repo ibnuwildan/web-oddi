@@ -20,7 +20,7 @@ class Carousel extends Component {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg"
+                src={require('../img/work2.jpg')} 
                 alt="First slide"
               />
             </MDBView>

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Carousel from '../component/carousel';
 
 class About extends Component {
     render(){
         return(
-            <div style={{ margin: 'auto', backgroundColor: 'with', paddingTop: 10}}>
-                {/* <CarouselPage></CarouselPage> */}
+            <div style={{ margin: 'auto', backgroundColor: 'with'}}>
+                
                 <div class="d-flex bd-highlight">
                     <br></br>
                     {/* <div class="p-2 w-50 bd-highlight"> */}
@@ -12,7 +13,7 @@ class About extends Component {
                     {/* </div> */}
                     <div class="p-5 w-50 bd-highlight" style={{ fontSize: '20px' }}>
                         <h1>ODDI</h1>
-                        berdiri pada September tahun 2012. Berawal dari 3 orang hingga sekarang sudah lebih dari 50 karyawan. Kini, Oddi semakin percaya diri untuk terus bekembangdan menjadi salah satu brand yang dapat memberi alasan pada konsumen "kenapa kalian harus memilih custom clothing". Kami tumbuh bersama, berusaha fokus pada satu titik,yaitu membawa Iwearzule menjadi perusahaan teknologi yang berkomoditas di bidang pakaian. Bagi kami, kerja keras yang di lakukan semata-mata kami apresiasikan untuk konsumen.
+                        berdiri pada September tahun 2018. Berawal dari 4 orang. Kini, Oddi semakin percaya diri untuk terus bekembangdan menjadi salah satu brand yang dapat memberi alasan pada konsumen "kenapa kalian harus memilih custom clothing". Kami tumbuh bersama, berusaha fokus pada satu titik,yaitu membawa oddi menjadi perusahaan teknologi yang berkomoditas di bidang pakaian. Bagi kami, kerja keras yang di lakukan semata-mata kami apresiasikan untuk konsumen.
                         </div>
                 </div>
                 <div class="d-flex">

@@ -5,8 +5,8 @@ import { MDBRow, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCa
 class Card extends Component {
     render() {
         return (
-            <div style={{ paddingTop: 10 }}>
-                <h3 className='title text-center' style={{ fontSize: 25,paddingBottom: 10 }}>KATA MEREKA YANG SUDAH CUSTOM BERSAMA ODDI</h3>
+            <div class="mt-1" style={{ paddingTop: 10 }}>
+                <h3 className='title text-center' style={{ fontSize: 25,paddingBottom: 10, paddingTop: 10}}>KATA MEREKA YANG SUDAH CUSTOM BERSAMA ODDI</h3>
                 <MDBContainer>
                     <MDBCarousel
                         activeItem={1}
@@ -96,22 +96,22 @@ class Card extends Component {
 
                                         <MDBCol md='3'>
                                             <MDBCard >
-                                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                                            <MDBCardImage className="img-fluid" src={require('../img/card/9.jpeg')}
                                                     waves />
                                                 <MDBCardBody>
-                                                    <MDBCardTitle>Card title</MDBCardTitle>
-                                                    <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
+                                                    <MDBCardTitle>iful.saaf</MDBCardTitle>
+                                                    <MDBCardText>" Bahan sangat berkualitas cocok sama yg aktif. Membuat saya tambah pede!"</MDBCardText>
                                                 </MDBCardBody>
                                             </MDBCard>
                                         </MDBCol>
 
                                         <MDBCol md='3'>
                                             <MDBCard>
-                                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                                            <MDBCardImage className="img-fluid" src={require('../img/card/9.jpeg')}
                                                     waves />
                                                 <MDBCardBody>
-                                                    <MDBCardTitle>Card title</MDBCardTitle>
-                                                    <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
+                                                    <MDBCardTitle>iful.saaf</MDBCardTitle>
+                                                    <MDBCardText>" Bahan sangat berkualitas cocok sama yg aktif. Membuat saya tambah pede!"</MDBCardText>
                                                 </MDBCardBody>
                                             </MDBCard>
                                         </MDBCol>
@@ -124,44 +124,44 @@ class Card extends Component {
                                     <MDBRow>
                                         <MDBCol md='3'>
                                             <MDBCard>
-                                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                                            <MDBCardImage className="img-fluid" src={require('../img/card/10.jpeg')}
                                                     waves />
                                                 <MDBCardBody>
-                                                    <MDBCardTitle>Card title</MDBCardTitle>
-                                                    <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
+                                                    <MDBCardTitle>@indaahkumala</MDBCardTitle>
+                                                    <MDBCardText>" Menurut gua produk oddi keren abis, nyaman dipakai dan hits abis"</MDBCardText>
                                                 </MDBCardBody>
                                             </MDBCard>
                                         </MDBCol>
 
                                         <MDBCol md='3'>
                                             <MDBCard>
-                                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                                            <MDBCardImage className="img-fluid" src={require('../img/card/card3.jpeg')}
                                                     waves />
                                                 <MDBCardBody>
-                                                    <MDBCardTitle>Card title</MDBCardTitle>
-                                                    <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
+                                                    <MDBCardTitle>@ibnu_wildan</MDBCardTitle>
+                                                    <MDBCardText>" Menurut gua produk oddi keren abis, nyaman dipakai dan hits abis"</MDBCardText>
                                                 </MDBCardBody>
                                             </MDBCard>
                                         </MDBCol>
 
                                         <MDBCol md='3'>
                                             <MDBCard >
-                                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                                            <MDBCardImage className="img-fluid" src={require('../img/card/card3.jpeg')}
                                                     waves />
                                                 <MDBCardBody>
-                                                    <MDBCardTitle>Card title</MDBCardTitle>
-                                                    <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
+                                                    <MDBCardTitle>@ibnu_wildan</MDBCardTitle>
+                                                    <MDBCardText>" Menurut gua produk oddi keren abis, nyaman dipakai dan hits abis"</MDBCardText>
                                                 </MDBCardBody>
                                             </MDBCard>
                                         </MDBCol>
 
                                         <MDBCol md='3'>
                                             <MDBCard>
-                                                <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                                            <MDBCardImage className="img-fluid" src={require('../img/card/card3.jpeg')}
                                                     waves />
                                                 <MDBCardBody>
-                                                    <MDBCardTitle>Card title</MDBCardTitle>
-                                                    <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
+                                                    <MDBCardTitle>@ibnu_wildan</MDBCardTitle>
+                                                    <MDBCardText>" Menurut gua produk oddi keren abis, nyaman dipakai dan hits abis"</MDBCardText>
                                                 </MDBCardBody>
                                             </MDBCard>
                                         </MDBCol>

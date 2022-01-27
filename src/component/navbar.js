@@ -1,33 +1,28 @@
 import React, { Component } from 'react';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink,MDBIcon, MDBCardImage } from "mdbreact";
 
 class Navbar extends Component {
+   
     render() {
         return (
-            <div>
-                <nav class="navbar navbar-expand-lg navbar-dark cyan darken-3 font-weight-bold">
-                <img src={require('../img/logo4.png')} alt='logo' height='70px' style={{paddingRight:'30px'}}/>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+      <MDBNavbar className="font-weight-bold teal accent-2" light expand="lg">
+          <MDBNavLink className="waves-effect waves-light" to="/">
+          <MDBCardImage src={require('../img/logo4.png')} style={{height: '50px',paddingRight:'30px',paddingLeft:'10px'}}/>
+          </MDBNavLink>
+          <MDBNavbarNav left>
+            <MDBNavItem >
+              <MDBNavLink to="/">Home</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/album">Gallery</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/about">About</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+            </MDBNavItem>
+          </MDBNavbarNav>
+      </MDBNavbar>
         )
     }
 }
