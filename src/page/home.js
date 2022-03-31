@@ -17,31 +17,31 @@ class Home extends Component {
           <div className="d-flex justify-content-around m-5">
             <div style={{ maxWidth: "30%" }}>
               <MDBCol className="title text-center">
-                <MDBIcon icon="pencil-alt" style={{ fontSize: "400%" }} />
+                <MDBIcon icon="pencil-alt" style={{ fontSize: "500%" }} />
                 <p style={{ paddingTop: "20px" }}>DESAIN SESUAI KEINGINANMU</p>
               </MDBCol>
             </div>
             <div style={{ maxWidth: "30%" }}>
               <MDBCol className="title text-center">
-                <MDBIcon icon="wrench" style={{ fontSize: "400%" }} />
+                <MDBIcon icon="wrench" style={{ fontSize: "500%" }} />
                 <p style={{ paddingTop: "20px" }}>JAMINAN KUALITAS PRODUK</p>
               </MDBCol>
             </div>
             <div style={{ maxWidth: "30%" }}>
               <MDBCol className="title text-center">
-                <MDBIcon icon="clock" style={{ fontSize: "400%" }} />
+                <MDBIcon icon="clock" style={{ fontSize: "500%" }} />
                 <p style={{ paddingTop: "20px" }}>JAMINAN PENGERJAAN TEPAT WAKTU</p>
               </MDBCol>
             </div>
             <div style={{ maxWidth: "30%" }}>
               <MDBCol className="title text-center">
-                <MDBIcon icon="paper-plane" style={{ fontSize: "400%" }} />
+                <MDBIcon icon="paper-plane" style={{ fontSize: "500%" }} />
                 <p style={{ paddingTop: "20px" }}>JAMINAN PENGIRIMAN TEPAT WAKTU</p>
               </MDBCol>
             </div>
             <div style={{ maxWidth: "30%" }}>
               <MDBCol className="title text-center">
-                <MDBIcon icon="money-bill-alt" style={{ fontSize: "400%" }} />
+                <MDBIcon icon="money-bill-alt" style={{ fontSize: "500%" }} />
                 <p style={{ paddingTop: "20px" }}>JAMINAN UANG KEMBALI</p>
               </MDBCol>
             </div>

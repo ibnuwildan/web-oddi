@@ -1,0 +1,17 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "ibnu",
+      "loaction": "indo"
+    },
+    {
+      "id": 2,
+      "name": "wildan",
+      "loaction": "malaysa"
+    },
+    {
+      "id": 3
+    }
+  ]
+}
